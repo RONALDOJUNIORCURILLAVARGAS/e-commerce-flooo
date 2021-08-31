@@ -1,0 +1,26 @@
+#main container{
+    text-align: center;
+}
+
+.btna{
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    float: right;
+    margin-top: 25px;
+    padding-top: 15px;
+    margin-right: 50px;
+    cursor: pointer;
+    height: 30px;
+}
+.btn-skybluea{
+    color: white;
+background:#7CAD9B;
+     font-family: sans-serif;
+}
+.btn-skybluea:hover
+{
+    color: white;
+    background: #266A51;    
+}

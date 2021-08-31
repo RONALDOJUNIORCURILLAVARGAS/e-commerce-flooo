@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 700px;
+  margin: auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #35B668;
+}
+main{
+    width: 100%;
+    
+}
+footer {
+    background: #f2f2f2;
+    padding: 0;
+    text-align: center;
+    margin-top: 10rem;
+}
+section#logo{
+    width: 180px;
+    height: 100px;
+    float: left;
+    background-color: #35B668;
+
+}
+section#banner{
+    width: 80%;
+    height: 100px;
+     float: right;
+    background-color: #35B668;
+
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.menu li{
+    display: inline-block;
+    list-style:none;
+    float: left;
+    width:140px;
+    height: 65px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    padding-top: 35px;
+}
+.menu li a{
+    color: white;
+    padding-top: 20px;
+    height: 80px;
+}
+.menu li:hover{
+    background-color: #3C9960;
+}
+#main-container{
+    text-align: center;
+}
+.btn{
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    float: right;
+    margin-top: 5px;
+    padding-top: 15px;
+    margin-right: 50px;
+    cursor: pointer;
+    height: 30px;
+}
+.btn-skyblue{
+    color: white;
+    background:#7CAD9B;
+     font-family: sans-serif;
+}
+.btn-skyblue:hover
+{
+   
+    color: white;
+    background: #266A51;
+    
+}
+#logo img{
+    float: right;
+    margin-top: 20px;
+    
+}
+.button{
+  background: #256850;
+  color: white;
+  text-decoration: none;
+  display:inline-block;
+  font-size:1em;
+  margin: 20px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 200px;
+  float: left;
+  border-radius: 5px;
+  font-family: sans-serif;
+  margin-top: 250px;
+  margin-left: 70px;
+  box-shadow: 0px 3px 0px #373c3c;
+      
+}
+.button:hover{
+    background: #696B68;
+    color: #6EF72A;
+}
+ .button span{
+  margin-right: 2px;
+  font-size: 28px;
+}
+article{
+    width: 60%;
+    height: 690px;
+   float: left;
+ 
+}
+.caja{
+  
+  height: 280px;
+  width: 600px;
+  float: right;
+  margin-top: 200px;
+  margin-right: 100px;
+}
+.caja h1{
+    font-family: sans-serif;
+    color:white;
+}
+.caja p{
+    font-family: fantasy;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 20px;
+}
+
+aside{
+    width: 40%;
+    height: 690px;
+   float: left; 
+   
+}
+
+video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+   
+}
+.container-footer-all{
+    width: 100%;
+    margin: auto;
+    background: #35B668;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.colum1{
+    text-align: left;
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.colum1 p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.row2{
+    margin-top: 20px;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: #FFFFFF;
+}
+.container-footer{
+    width: 100%;
+    height: 18px;
+    padding: 5px;
+     background: #256850;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: #FFFFFF;
+}
+.copyright a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.informacion a{
+    text-decoration: none;
+   color: #FFFFFF;
+   margin: 5px;
+}

@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #35B668;
+}
+.img{
+    float: left;
+}
+.menu{float: left;}
+.menu ul{margin: 0px;}
+.menu li{
+    list-style:none;
+    float: left;
+    width:150px;
+    height: 65px;
+    padding-top: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.menu li:hover{
+     background-color:#3C9960;
+}
+.espacio {
+    width:40px;
+    height:50px;
+     text-align: center;
+     font-size: 20px;
+     float: left;
+    margin-left: 60px;
+}
+.botones input{
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 21px;
+    margin-left: 20px;
+    border: 0px;
+    outline: none;
+    background-color: white;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    -ms-border-radius: 40px;
+     cursor: pointer;
+    
+}
+.botones input:hover{
+    background-color:#B5B3B3
+}
+main {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    margin-top: 20px;     
+}
+.busqueda table{
+  width: 540px;
+  height: 70px;
+  border-radius: 20px;
+  -webkit-border-radius: 18px;
+  border: 3px solid black;
+  outline: none;
+}
+.buscador input{
+  width: 460px;
+  height: 40px; 
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    border:0px;
+    outline: none;
+    float:left;
+    
+}
+.btn_busc button{
+   width: 60px;
+   height: 40px; 
+   border : 0px;
+   outline: none;
+   cursor: pointer;
+   float:right;
+   background-color: white;
+   border-left: 2px solid black;
+}
+.btn_busc img{
+   width: 110%;
+   height: 120%;
+   
+}
+.categorias {
+    width: 270px;
+    height: 400px;
+    border-radius: 20px;
+    border: 3px solid black;
+    float: left;
+    margin-left: 50px;
+    margin-top: 60px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.categorias h1{
+    cursor: pointer;
+    padding-left: 0px;
+    color: blue;
+}
+.cuadro_cat table{
+    width: 790px;
+    height: 400px;
+    margin-top: 60px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.box {
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+}

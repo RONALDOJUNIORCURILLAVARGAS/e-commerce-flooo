@@ -1,0 +1,21 @@
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 81%;
+    height: 35px;
+    color: white;
+    background-color: #5FD1B0;
+    border: 0px;
+    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}

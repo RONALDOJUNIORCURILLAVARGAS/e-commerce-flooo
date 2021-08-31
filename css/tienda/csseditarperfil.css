@@ -1,0 +1,172 @@
+body{
+    font-family:  georgia, sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+}
+main{
+    width: 100%;
+}
+footer {
+    background: #f2f2f2;
+    padding: 0;
+    text-align: center;
+    margin-top: 14rem;
+}
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #35B668;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flooop img {
+    width: 100px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #ccc;
+}
+
+.main {
+    padding-top: 12rem;
+}
+
+.john4 {
+    width: 30%;
+    background: #A7F6EB;
+    margin: 20px 50px;
+    padding: 30px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border-color: #07493F;
+}
+
+.john4 td{
+    padding: 6px;
+    
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-footer-all{
+    width: 100%;
+    margin: auto;
+    background: #35B668;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 25px;
+}
+.colum1 p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 25px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 25px;
+}
+.row2{
+    margin-top: 20px;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+.container-footer{
+    width: 100%;
+    height: 18px;
+    padding: 5px;
+     background: #256850;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: #FFFFFF;
+}
+.copyright a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.informacion a{
+    text-decoration: none;
+   color: #FFFFFF;
+   margin: 5px;
+}

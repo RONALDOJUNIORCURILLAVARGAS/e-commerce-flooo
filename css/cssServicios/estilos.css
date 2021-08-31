@@ -1,0 +1,107 @@
+body{
+    font-family: arial, helvelica;
+    background: #f7f7f7;
+}
+
+header{
+    width: 100%;
+    height: 56px;
+    background: #35B668;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    padding-left: 150px;
+    position: absolute;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    
+}
+
+.menu li{
+    display: inline-block;
+    list-style:none;
+    float: left;
+    width:150px;
+    height: 65px;
+    padding-top: 6px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.menu li a:hover{
+    background: #41BA29;
+}
+
+.logo img{
+    position: absolute;
+    width: 150px;
+    padding-top: 7px;
+}
+
+#main container{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 8px;
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+ 
+}
+
+.btn-skyblue{
+    color: whitesmoke;
+    background: skyblue;
+}
+
+#buscador{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 600px;
+    transform: translate(-50%, -50%);
+}
+
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #a50559;
+    background: #fff no-repeat 9px center;
+    transition: all .5s;
+}
+
+input.src:hover{
+    width: 180px;
+    background: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #F9D5F9;
+}
+
+#caja1{
+    width: 200px;
+    height: 350px;
+    padding: 25px;
+    border: 5px solid black;
+    margin-left: 15px;
+    border-radius: 25px;
+    margin-top: 120px;
+    float: left;
+}
+
+

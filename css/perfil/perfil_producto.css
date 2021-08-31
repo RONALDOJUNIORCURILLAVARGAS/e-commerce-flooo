@@ -1,0 +1,46 @@
+.mostrar_lis{
+ color: black;                                            
+height: 250px;
+background: url(../../img/john1.jpg);
+width: 400px;
+background-size: 30vw 50vh; 
+background-repeat: no-repeat;
+margin: 15px;
+float: left;
+list-style: none;
+cursor: pointer;
+border-radius: 10px;   
+margin-left: 5%;
+font-family: 'Poppins', sans-serif;
+font-size: 28px;
+
+
+}
+.lista_contenido{
+margin-top: 30px;
+width: 90%;
+height: 150px;
+
+
+
+}
+.lis_label{
+height: 30px;
+margin-left: 5px;
+text-align: left;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal; 
+
+}
+.div01{
+ margin-top: 15px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 22px;
+object-fit: cover;
+position: relative;
+
+   
+}

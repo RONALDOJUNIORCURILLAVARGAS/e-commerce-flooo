@@ -1,0 +1,275 @@
+body
+{
+    margin: 0px;
+}
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: #35B668;
+}
+main{
+    width: 100%;
+    height: 690px;
+}
+footer{
+    width: 100%;
+    height: 224px;
+    float: left;
+    color: #FFFFFF;
+    background: #35B668; 
+}
+.img
+{
+    float: left;
+}
+.menu
+{float: left;}
+.menu ul{margin: 0px;}
+.menu li
+{
+    list-style:none;
+    float: left;
+    width:150px;
+    height: 65px;
+    padding-top: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.menu li:hover
+{
+     background-color:#3C9960;
+}
+.espacio 
+{
+    width:2%;
+    height:10%;
+     text-align: center;
+     font-size: 20px;
+     float: left;
+    margin-left: 2%;
+}
+main 
+{
+    width: 100%;
+
+    background-color: white;
+    margin-top: 20px;     
+}
+.busqueda table
+{
+  width: 540px;
+  height: 50px;
+  border-radius: 20px;
+  -webkit-border-radius: 18px;
+  border: 3px solid black;
+  outline: none;
+}
+.buscador input
+{
+  width: 80%;
+  height: 10%; 
+    font-size: 25px;
+    text-align: left;
+    font-family: sans-serif;
+    border:0px;
+    outline: none;
+    float:left;
+    
+}
+
+.lupita{
+    width: 13%;
+}
+
+.btn_busc button
+{
+   width: 60px;
+   height: 40px; 
+   border : 0px;
+   outline: none;
+   cursor: pointer;
+   float:right;
+   background-color: white;
+   border-left: 2px solid black;
+}
+.btn_busc img
+{
+   width: 110%;
+   height: 120%;
+   
+}
+.categorias 
+{
+    width: 270px;
+    height: 350px;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 50px;
+
+    text-align: left;
+    font-family: sans-serif;
+}
+.categorias h1
+{
+    margin-top: 0px;
+    width:93%;
+    font-size: 20px;
+    padding-top: 8%;
+    height: 10%;
+    padding-left: 18px;
+    cursor: pointer;
+    color: black;
+    background-color: gray;
+}
+.categorias h2
+{
+    width: 92%;
+    height: 7%;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    border: 1px solid white;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+.categorias h2:hover
+{
+    color: #35B668;
+    border: 1px solid gray;
+}
+/*css de los íconos */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6uus9r');
+  src:  url('fonts/icomoon.eot?6uus9r#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6uus9r') format('truetype'),
+    url('fonts/icomoon.woff?6uus9r') format('woff'),
+    url('fonts/icomoon.svg?6uus9r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-glass:before {
+  content: "\e9a0";
+}
+.icon-accessibility:before {
+  content: "\e9b2";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-woman:before {
+  content: "\e9dd";
+}
+.icon-windows:before {
+  content: "\eac1";
+}
+.container-footer-all{
+    width: 100%;
+    margin: auto;
+    background: #35B668;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 25px;
+}
+.colum1 p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 25px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 25px;
+}
+.row2{
+    margin-top: 20px;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+.container-footer{
+    width: 100%;
+    height: 18px;
+    padding: 5px;
+     background: #256850;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: #FFFFFF;
+}
+.copyright a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.informacion a{
+    text-decoration: none;
+   color: #FFFFFF;
+   margin: 5px;
+}
